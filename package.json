@@ -1,0 +1,38 @@
+{
+  "name": "twitter-pic-download",
+  "version": "0.0.1",
+  "description": "Download Twitter profile pictures",
+  "main": "./bin/twitter-pic-download",
+  "engines": {
+    "node": "4.4.2"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "twitter-pic-download": "./bin/twitter-pic-download"
+  },
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanburgess/twitter-pic-download.git"
+  },
+  "keywords": [
+    "twitter",
+    "pic",
+    "profile",
+    "photos",
+    "pictures",
+    "download",
+    "images"
+  ],
+  "author": "Ryan Burgess",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryanburgess/twitter-pic-download/issues"
+  },
+  "homepage": "https://github.com/ryanburgess/twitter-pic-download#readme",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "request": "^2.72.0"
+  }
+}

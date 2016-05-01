@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+'use strict';
+const argument = process.argv[2];
+const twitterPic = require('../index');
+
+switch (true) {
+  case (argument === undefined):
+    console.log(`Add Twitter usename`)
+  break;
+  default:
+    twitterPic(argument);
+  break;
+}
